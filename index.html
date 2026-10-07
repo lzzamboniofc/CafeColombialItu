@@ -13,7 +13,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -23,9 +23,8 @@
           class="mark"><i></i><i></i><i></i><i></i></span><span><small>Café</small>Colômbia</span></a><button
         class="toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
       <div class="links"><a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#cardapio">Cardápio</a><a
-          href="#momento">Seu momento</a><a href="#ambiente">Ambiente</a><a href="#avaliacoes">Avaliações</a><a
-          href="#duvidas">Dúvidas</a><a href="#contato">Contato</a></div><a class="navbtn" href="tel:+551124293917">☎
-        Fale conosco</a>
+          href="#momento">Seu momento</a><a href="#ambiente">Ambiente</a><a href="#avaliacoes">Avaliações</a><a href="#duvidas">Dúvidas</a><a
+          href="#contato">Contato</a></div><a class="navbtn" href="tel:+551124293917">☎ Fale conosco</a>
     </nav>
     <div class="hero-bg"></div>
     <div class="hero-shade"></div>
@@ -113,23 +112,17 @@
           <p>Escolha como você quer viver o Café Colômbia hoje.</p>
         </div>
         <div class="moment-tabs reveal" role="tablist" aria-label="Escolha seu momento">
-          <button class="active" data-moment="manha" role="tab" aria-selected="true"><span>☀</span><b>Começar bem o
-              dia</b><small>Leve e acolhedor</small></button>
-          <button data-moment="pausa" role="tab" aria-selected="false"><span>♨</span><b>Uma pausa sem
-              pressa</b><small>Café e conversa</small></button>
-          <button data-moment="almoco" role="tab" aria-selected="false"><span>♡</span><b>Almoço com
-              afeto</b><small>Sabor de casa</small></button>
+          <button class="active" data-moment="manha" role="tab" aria-selected="true"><span>☀</span><b>Começar bem o dia</b><small>Leve e acolhedor</small></button>
+          <button data-moment="pausa" role="tab" aria-selected="false"><span>♨</span><b>Uma pausa sem pressa</b><small>Café e conversa</small></button>
+          <button data-moment="almoco" role="tab" aria-selected="false"><span>♡</span><b>Almoço com afeto</b><small>Sabor de casa</small></button>
         </div>
         <div class="moment-stage reveal" data-current="manha">
-          <div class="moment-visual" aria-hidden="true">
-            <div class="moment-orbit"><span>seu</span><b>momento</b><i>♡</i></div>
-          </div>
+          <div class="moment-visual" aria-hidden="true"><div class="moment-orbit"><span>seu</span><b>momento</b><i>♡</i></div></div>
           <div class="moment-copy">
             <span class="moment-number">01 / 03</span>
             <p class="moment-kicker">PARA COMEÇAR BEM</p>
             <h3>Manhã leve,<br>café passado na hora.</h3>
-            <p class="moment-text">Comece o dia no seu ritmo, com sabores brasileiros e uma xícara que chega à mesa
-              cheia de aroma.</p>
+            <p class="moment-text">Comece o dia no seu ritmo, com sabores brasileiros e uma xícara que chega à mesa cheia de aroma.</p>
             <div class="moment-picks"><span>♨ Café coado</span><span>◇ Cuscuz</span><span>♡ Bolo de milho</span></div>
             <a class="btn gold moment-cta" href="tel:+551124293917">Consultar opções da manhã ☎</a>
           </div>
@@ -245,7 +238,7 @@
   </dialog>
   <dialog id="lightbox"><button class="close" aria-label="Fechar">×</button><img alt="Imagem ampliada do Café Colômbia">
   </dialog>
-  <script src="assets/js/main.js"></script>
+  <script type="module" src="./src/main.js"></script>
 </body>
 
 </html>
